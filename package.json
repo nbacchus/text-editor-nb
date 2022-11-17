@@ -1,11 +1,11 @@
 {
-  "name": "JATE",
+  "name": "text-editor-nb",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start:dev": "",
-    "start": "",
+    "start": "node server.js",
     "server": "",
     "build": "",
     "install": "",
@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "if-env": "^1.0.4"
   },
   "devDependencies": {

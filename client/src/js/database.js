@@ -35,7 +35,7 @@ export const putDb = async (content) => {
   const store = tx.objectStore('jate');
   const request = store.put({content: content});
   const result = await request;
-  console.log('Thw data was saved to the database', result);
+  console.log('The data was saved to the database', result);
   
 };
 
